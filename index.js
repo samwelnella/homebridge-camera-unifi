@@ -44,7 +44,7 @@ unifiPlatform.prototype.didFinishLaunching = function() {
         controllerConfig.url + 'api/auth',
         {
           json: { username: controllerConfig.username, password: controllerConfig.password },
-          resolveWithFullResponse: true
+          resolveWithFullResponse: true,
           rejectUnauthorized: false
         }
       ).then(response => {
@@ -54,7 +54,7 @@ unifiPlatform.prototype.didFinishLaunching = function() {
           {
             headers: { 
               Authorization: 'Bearer ' + accessToken
-            }
+            },
             rejectUnauthorized: false
           }
         ).then(response => {  
