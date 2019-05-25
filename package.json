@@ -8,10 +8,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/ptescher/homebridge-camera-unifi.git"
+    "url": "git://github.com/samwelnella/homebridge-camera-unifi.git"
   },
   "bugs": {
-    "url": "http://github.com/ptescher/homebridge-camera-unifi/issues"
+    "url": "http://github.com/samwelnella/homebridge-camera-unifi/issues"
   },
   "engines": {
     "node": ">=5.0.0",
