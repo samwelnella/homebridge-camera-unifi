@@ -1,6 +1,6 @@
 {
   "name": "homebridge-camera-unifi",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Unifi Protect plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
   "keywords": [
